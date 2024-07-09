@@ -1,0 +1,3 @@
+To integrate an MQTT receiver that sends data to InfluxDB, you can use the paho-mqtt library to subscribe to an MQTT topic and then write the received data to InfluxDB
+Install the necessary libraries
+pip install paho-mqtt influxdb-client
